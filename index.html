@@ -82,6 +82,19 @@
       padding: 8px 14px;
       font-size: 14px;
       font-weight: 700;
+      text-decoration: none;
+      display: inline-block;
+      transition: transform 0.2s ease, background 0.2s ease;
+    }
+    .pill:hover {
+      background: #dff1d6;
+      transform: translateY(-1px);
+    }
+    .affiliate-note {
+      font-size: 12px;
+      color: #667;
+      margin-top: 12px;
+      text-align: center;
     }
     .note {
       background: #fff8e7;
@@ -126,12 +139,13 @@
     <p>Concierge parcel forwarding for customers buying from Canadian retailers.</p>
     <a href="https://wa.me/254717242251" class="cta">Chat With Us on WhatsApp</a>
     <div class="pill-row">
-      <span class="pill">Amazon.ca</span>
-      <span class="pill">Walmart Canada</span>
-      <span class="pill">Best Buy</span>
-      <span class="pill">Sephora</span>
-      <span class="pill">Canadian Tire</span>
+      <a class="pill" href="https://www.amazon.ca/" target="_blank" rel="noopener noreferrer">Amazon.ca</a>
+      <a class="pill" href="https://www.walmart.ca/" target="_blank" rel="noopener noreferrer">Walmart Canada</a>
+      <a class="pill" href="https://www.bestbuy.ca/" target="_blank" rel="noopener noreferrer">Best Buy</a>
+      <a class="pill" href="https://www.sephora.com/ca/en/" target="_blank" rel="noopener noreferrer">Sephora</a>
+      <a class="pill" href="https://www.canadiantire.ca/" target="_blank" rel="noopener noreferrer">Canadian Tire</a>
     </div>
+    <p class="affiliate-note">Retailer links open official Canadian stores. Some links may become affiliate links in the future, where permitted.</p>
   </div>
 
   <section id="about">
